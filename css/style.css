@@ -1,0 +1,244 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 1.6;
+	color: #4a4a4a;
+	margin:0;
+	
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3,
+a {
+	color: #4a4a4a;
+}
+
+h2 {
+	padding-top:.15em;
+}
+
+h3,
+h4 {
+	margin-top: 0;
+}
+
+h4 {
+	margin-bottom: .4em;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+/*figure {
+	margin: 0;
+	line-height: 0;
+}
+
+figcaption {
+	font-size: .9em;
+	line-height: 1.5;
+	color: #fff;
+	padding: 1em;	
+	background: rgba(19,43,102, .85);
+}*/
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 2em;
+	margin: 0;
+}
+
+.main-nav {
+	padding: 0 10px;
+	list-style-type: none;
+	margin: 5px auto;
+}
+
+	.name a,
+	.main-nav a {
+		display: block;
+		text-align: center;
+		padding: 10px 15px;
+		margin-top: 10px;
+	}
+	.main-nav li {
+		background-color: white;
+	}
+	
+	.main-nav a {
+		font-size: 1em;
+		color: #4a4a4a;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.main-nav a:hover {
+		color: #093a58;
+	}
+
+/* ---- Layout Containers ---- */
+
+.main-header {
+	background-color: #fafafa;
+	padding-top: .5em;
+	padding-bottom: 2em;
+	margin-bottom:2em;
+	text-align: center;
+}
+
+.wrapper,
+.main-footer {
+	text-align: center;
+
+}
+.wrapper {
+	max-width:90%;
+	margin:0 auto;
+
+}
+
+.my-picture,
+.main-header p {
+	max-width: 80%;
+	margin: 10px auto;
+}
+
+.my-picture {
+	border-radius: 0 15%;
+
+}
+
+.col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.main-footer {
+	background: #fafafa;
+	padding: 2em 0;
+	margin-top: 30px;
+}
+
+/* ---- Page Elements ---- */
+
+.logo {
+	width: 190px;
+}
+
+.headline {
+	margin-bottom: 0;
+}
+
+.portfolio-item p {
+	padding-bottom:1em;
+
+}
+
+.float-left {
+	float:left;
+
+}
+.float-right {
+	float:right;
+}
+.footer-large {
+	display:none;
+}
+.footer-mobile {
+	
+	border-top: 1px solid #d3d3d3;
+	
+	padding-top:5%;
+	margin: 0 5% 50px;
+
+}
+
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 769px) {
+
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.name,
+	.col {
+		float: left;
+	}
+
+	.primary,
+	.secondary {
+		width: 50%;
+	}
+
+	.main-nav {
+		float: right;
+	}
+
+	.main-nav li {
+		display: inline-block;
+		margin-left: 15px;
+	}
+
+	.tagline {
+		font-size: 1.4em;
+	}
+
+	/* ---- Float clearfix ---- */
+
+	.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
+
+}
+
+@media (min-width: 1025px) {
+	
+	.container {
+		width: 80%;
+		max-width: 1150px;
+	}
+
+	.primary {
+		width: 40%;
+	}
+
+	.secondary,
+	.tertiary {
+		width: 30%;
+	}
+
+}
