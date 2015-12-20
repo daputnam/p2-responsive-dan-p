@@ -187,12 +187,13 @@ figcaption {
 
 @media (min-width: 769px) {
 
-	.container {
+	.wrapper {
 		width: 90%;
 		margin: 0 auto;
+		background-color: white;
 	}
 
-	.name,
+	
 	.col {
 		float: left;
 	}
@@ -203,17 +204,67 @@ figcaption {
 	}
 
 	.main-nav {
-		float: right;
+		text-align: center;
+
 	}
 
 	.main-nav li {
 		display: inline-block;
 		margin-left: 15px;
+		background-color: #fafafa;
 	}
 
-	.tagline {
-		font-size: 1.4em;
+	.header-bio {
+		position:relative;
+		display: block;
+		max-width: 90%;
+		margin: 10px auto;
+
 	}
+	.header-bio p {
+		position: absolute;
+		top:20%;
+		vertical-align: bottom;
+		text-align: left;
+		font-size: 1.5em;
+		font-weight: lighter;
+		max-width: 45%;
+		float: left;
+		padding-left: 10px;
+		
+	}
+	.my-picture {
+		max-width: 45%;
+		float:right;
+	}
+
+	.footer-large {
+		display: block;
+		border-top: 1px solid #d3d3d3;
+		padding-top:5%;
+		margin: 0 5% 50px;
+	}
+	.footer-large .float-left {
+		margin-top: 16px;
+	}
+
+	.footer-mobile {
+		display:none;
+	
+	}
+
+	.footer-nav {
+		text-align: center;
+		float:right;
+
+	}
+
+	.footer-nav li {
+		display: inline-block;
+		margin-left: 15px;
+		background-color: #fafafa;
+	}
+
 
 	/* ---- Float clearfix ---- */
 
