@@ -102,11 +102,20 @@ figcaption {
 /* ---- Layout Containers ---- */
 
 .main-header {
+	background: url("../img/bg-pattern.png") repeat 0 0;
 	background-color: #fafafa;
 	padding-top: .5em;
 	padding-bottom: 2em;
 	margin-bottom:2em;
 	text-align: center;
+}
+
+.header-bio {
+
+	
+	/*background-color: white;*/
+	
+
 }
 
 .wrapper,
