@@ -17,7 +17,7 @@ body {
 
 p {
 	font-size: .95em;
-	margin-bottom: 1.8em;
+	/* margin-bottom: 1.8em; */
 }
 
 h2,
@@ -181,7 +181,7 @@ figcaption {
 	border-top: 1px solid #d3d3d3;
 	
 	padding-top:5%;
-	margin: 0 5% 50px;
+	margin: 0 5% ;
 
 }
 
@@ -251,8 +251,8 @@ figcaption {
 	.footer-large {
 		display: block;
 		border-top: 1px solid #d3d3d3;
-		padding-top:5%;
-		margin: 0 5% 50px;
+		
+		margin: 0 5%;
 	}
 	.footer-large .float-left {
 		margin-top: 16px;
@@ -333,7 +333,7 @@ figcaption {
 		margin: 0 auto;
 		max-width: 40%;
 		margin-bottom: 0;
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 	
