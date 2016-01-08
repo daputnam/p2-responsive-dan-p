@@ -47,18 +47,6 @@ img {
 	max-width: 100%;
 }
 
-/*figure {
-	margin: 0;
-	line-height: 0;
-}
-
-figcaption {
-	font-size: .9em;
-	line-height: 1.5;
-	color: #fff;
-	padding: 1em;	
-	background: rgba(19,43,102, .85);
-}*/
 
 /* ================================= 
   Base Layout Styles
@@ -111,7 +99,7 @@ figcaption {
 }
 
 .header-bio {
-	
+
 	
 	/*background-color: white;*/
 	
@@ -160,7 +148,11 @@ figcaption {
 .headline {
 	margin-bottom: 0;
 }
+.portfolio-item {
+	vertical-align:top;
+	min-height: 400px;
 
+}
 .portfolio-item p {
 	padding-bottom:1em;
 
@@ -234,7 +226,7 @@ figcaption {
 	.header-bio p {
 		position: absolute;
 		top:20%;
-		vertical-align: bottom;
+		vertical-align: middle;
 		text-align: left;
 		font-size: 1.2em;
 		font-weight: lighter;
@@ -306,6 +298,12 @@ figcaption {
 	.main-nav ul {
 		float: left;
 	}
+
+	.header-bio span {
+		vertical-align: middle;
+		font-size: 1.3em;
+	}
+
 	.col { 
 		width: 100%;
 	}
@@ -321,6 +319,13 @@ figcaption {
 		width: 30%;
 	}
 
+	#portfolio {
+		margin-top: 2.5em;
+		margin-bottom: 2.5em;
+	}
+	.portfolio-item p {
+		font-size:1.2em;
+	}
 	.main-footer h3 {
 		text-transform: uppercase;
 
@@ -333,7 +338,7 @@ figcaption {
 		margin: 0 auto;
 		max-width: 40%;
 		margin-bottom: 0;
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 
 	
