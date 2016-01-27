@@ -98,11 +98,9 @@ img {
 	text-align: center;
 }
 
-.header-bio {
-
-	
-	/*background-color: white;*/
-	
+.header-bio p {
+	/* display:inline;
+	float:left; */
 
 }
 
